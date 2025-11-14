@@ -19,7 +19,7 @@ with sync_playwright() as playwright:
         print("-"*20)
 
     for new_email in new_emails:
-        print(new_email[0],new_email[1])
+        print(new_email[0] + ":" + new_email[1])
         print("-" * 20)
     context.close()
     
