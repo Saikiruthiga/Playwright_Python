@@ -11,6 +11,6 @@ def test_page_has_link(page : Page):
     # page.wait_for_url(page_url)
     # title = page.title()
     # assert title == page_title
-    new_url = page.url
-    assert new_url == page_url
+    page.wait_for_url(page_url)
+    assert page.url == page_url
 
