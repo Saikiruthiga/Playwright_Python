@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-from creds import *
+from tests_api_testing.creds import *
 
 with sync_playwright() as playwright:
     browser = playwright.chromium.launch(headless = False, slow_mo = 1500,
