@@ -25,5 +25,5 @@ jobs:
               run: python -m playwright install chromium --with-deps 
 
             - name: Run tests
-              run: python -m pytest test_app.py --browser chromium --headed=False 
+              run: python -m pytest test_app.py --browser chromium --headless
 
