@@ -1,0 +1,8 @@
+{
+  "_comment": "This is only for vscode to let it know where the steps directory",
+  "cucumberautocomplete.steps": [
+    "BDD/features/steps/*.py"
+  ],
+  "cucumberautocomplete.syncfeatures": "BDD/features/*.feature"
+}
+
